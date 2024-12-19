@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Long Nguyen</title>
+  <link rel="stylesheet" href="contactCSS.css">
+</head>
+
+<body>
+  <!-- Side Navigation Bar -->
+  <nav class="side-navbar">
+    <ul>
+      <li><a href="home.html">Home</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Contact Screen -->
+  <div class="screen" id="contact">
+    <header class="hero-section">
+      <div class="container">
+        <h1>Contact Me</h1>
+        <p>I'd love to hear from you! Reach out via the form below or through any of the provided contact options.</p>
+      </div>
+    </header>
+
+    <section class="contact-section">
+      <div class="container contact-grid">
+        <!-- Contact Details -->
+        <div class="contact-details">
+          <h2>Contact Information</h2>
+          <ul>
+            <li><strong>Email:</strong> <a href="mailto:longnguyen39ios@gmail.com">longnguyen39ios@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+19495319673">+1 (949) 531-9673</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/long-nguyen-309092205/" target="_blank">My_Linkedin_Profile</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h2>Send Me a Message</h2>
+          <form action="mailto:longnguyen39ios@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2024 Long Nguyen. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>

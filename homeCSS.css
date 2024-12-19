@@ -1,0 +1,202 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Body Background */
+  body {
+    background-color: #000;
+    color: #f5f5f5;
+  }
+  
+  /* Side Navbar */
+  .side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: #1e1e1e;
+    padding: 20px 0;
+  }
+  
+  .side-navbar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .side-navbar ul li {
+    margin: 15px 0;
+  }
+  
+  .side-navbar ul li a {
+    color: #f5f5f5;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .side-navbar ul li a:hover {
+    background-color: #e91e63;
+  }
+  
+  /* Main Content */
+  .screen {
+    margin-left: 200px;
+    padding: 48px;
+  }
+  
+  .section {
+    margin-bottom: 56px;
+    padding: 40px 20px;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    margin-bottom: 40px;
+    background-color: #e91e63;
+    padding: 48px 12px;
+    border-radius: 12px;
+  }
+  
+  .hero-section h1 {
+    font-size: 2.5rem;
+    color: #f5f5f5;
+  }
+  
+  .hero-section h2 {
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 12px;
+  }
+  
+  .real-website-link {
+    display: block;
+    margin-top: 12px;
+    color: white;
+    text-decoration: underline;
+    font-size: 1rem;
+  }
+  
+  /* About Section */
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+  
+  .profile-picture {
+    width: 33%;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .left-title {
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  
+  .about-text ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 2.0;
+  }
+  
+  /* Experience Section */
+  ul {
+    list-style: disc;
+    margin-left: 20px;
+    line-height: 2.0;
+  }
+
+  /* Resume Link Styling */
+.resume-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #fffdfd;
+    color: rgb(70, 57, 217);
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .resume-link:hover {
+    background-color: #1ee92f;
+    transform: translateY(-8px);
+  }
+  
+
+  /* Red-pink background color */
+.red-pink-bg {
+    background-color: #e91e63; /* Red-pink */
+    color: white;             /* Ensure text is readable */
+    padding: 40px;            /* Add internal spacing */
+    border-radius: 12px;      /* Optional rounded corners */
+    margin: 20px 0;
+  }
+  
+  
+  /* Skills Section */
+  .skills-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .skill {
+    text-align: center;
+    max-width: 400px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .skill-image {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 16px;
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  .skills-title {
+    margin-bottom: 16px;
+  }
+
+  
+  /* Background colors for skills */
+  .swift-bg {
+    background-color: #ff6f61;
+  }
+  
+  .swiftui-bg {
+    background-color: #42a5f5;
+  }
+  
+  .firebase-bg {
+    background-color: #ffa726;
+  }
+  
+  .appstore-bg {
+    background-color: #7e57c2;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #1e1e1e;
+    color: #f5f5f5;
+    margin-top: 40px;
+  }
+  
